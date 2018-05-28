@@ -1,12 +1,17 @@
 # Contaminant-Cross-Prediction
 GUI for glass contaminant cross prediction, part of work done at Cheyney design and development.
 
-#Theorum
+## Theorum
 If impurity is detected and viewed from two camera projections, its projection from the third camera can be predicted exactly, 
 if only one camera projection is available,
 there will be infinite numbers of positions which the contaminant can take on other camera projections.
 
+## GUI implementation
+* Project pacman is a Delphi demo used to demonstrate the cross contamination prediction algorithm
+* GUI example output included in repository
+* Actual code is implemented within the existing software framework at Cheyney
 
-\begin{equation*}
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-\end{equation*}
+# Project conclusion and future work
+* Achieves high theoretical accuracy and high tolerance to Type II errors
+* Code in DLL can be further optimized such as using DFFT instead of image domain convolution
+* Further indistrial tests should be conducted
