@@ -11,7 +11,7 @@ there will be infinite numbers of positions which the contaminant can take on ot
 * GUI example output included in repository
 * Actual code is implemented within the existing software framework at Cheyney
 
-# Project conclusion and future work
+## Project conclusion and future work
 * Achieves high theoretical accuracy and high tolerance to Type II errors
 * Code in DLL can be further optimized such as using DFFT instead of image domain convolution
 * Further indistrial tests should be conducted
