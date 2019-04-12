@@ -1,5 +1,7 @@
 # Contaminant-Cross-Prediction
+2016 Summer Internship Project
 GUI for glass contaminant cross prediction, part of work done at Cheyney design and development.
+https://sapphire-inspection.com/cheyney-design/
 
 ## Theorum
 If impurity is detected and viewed from two camera projections, its projection from the third camera can be predicted exactly, 
